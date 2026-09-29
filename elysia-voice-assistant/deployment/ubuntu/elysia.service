@@ -1,0 +1,19 @@
+[Unit]
+Description=Elysia ESP32 Voice Assistant
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=elysia
+Group=elysia
+WorkingDirectory=/opt/elysia
+EnvironmentFile=/etc/elysia.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/elysia/.venv/bin/python -u /opt/elysia/elysia.py
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target

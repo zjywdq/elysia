@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.service text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.pcm binary
+*.stl binary
+*.STL binary
+*.eprj2 binary
+*.epro2 binary
+*.webp binary

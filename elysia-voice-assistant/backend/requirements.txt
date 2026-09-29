@@ -1,0 +1,8 @@
+dashscope>=1.26.4
+zhipuai
+numpy
+webrtcvad-wheels
+modelscope[framework]
+soundfile
+scipy
+python-dotenv

@@ -1,0 +1,20 @@
+{
+  "name": "elysia-character-pack",
+  "display_name": "爱莉希雅角色技能包",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "description": "供 elysia.py 加载的本地角色设定、世界观、示例对话和语音表现配置。",
+  "load_order": [
+    "persona.md",
+    "lore.md",
+    "forbidden.md",
+    "examples.json",
+    "voice_config.json"
+  ],
+  "context": {
+    "max_history_turns": 8,
+    "default_reply_sentences": "1-2",
+    "default_reply_max_chars": 50,
+    "spoiler_mode": true
+  }
+}

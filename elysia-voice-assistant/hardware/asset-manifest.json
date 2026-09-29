@@ -1,0 +1,31 @@
+{
+  "model": {
+    "filename": "3d/enclosure.stl",
+    "original_name": "外壳.STL",
+    "triangles": 1494,
+    "sha256": "c19ad541a034bcf7630fc8b1288ce81174a261f3264b748fc7c223ccc7fc3bcc",
+    "coordinate_extent": [
+      287.08971935510635,
+      62.0,
+      140.87539672851562
+    ],
+    "unit": "not encoded by STL",
+    "edge_multiplicity": {
+      "2": 2241
+    }
+  },
+  "pcb": {
+    "project_name": "record me",
+    "editor_version_in_backup": "3.2.181",
+    "snapshot": "pcb/source/record-me.eprj2",
+    "snapshot_sha256": "032df1aca13bd46f0ff327a9d6996c751ffe63e433aa604bf2d06b1f2c110160",
+    "portable_backup": "pcb/source/record-me-backup-20260821-1127.epro2",
+    "portable_backup_sha256": "533082c4d41fb04ee7221f944ac62e13ec787ade60fe4ffb8ae6de179bac8822",
+    "snapshot_method": "read-only SQLite backup; publication copy has account fields cleared",
+    "design_data_unchanged": true,
+    "boards": 1,
+    "schematic_pages": 1,
+    "pcbs": 1,
+    "preview_source": "embedded images in the current project snapshot"
+  }
+}

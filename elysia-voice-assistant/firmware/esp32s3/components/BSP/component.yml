@@ -1,0 +1,6 @@
+version: 1
+name: BSP
+description: Basic Support Package for ESP32 audio applications
+includes:
+  - I2S_voice
+  - TCP
